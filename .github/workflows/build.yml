@@ -1,0 +1,7 @@
+- uses: sparkfabrik/android-build-action@v1.5.0
+  with:
+    project-path: android
+    output-path: the-flash.apk
+    ruby-version: "2.7.5"
+    bundler-version: "2.3.26"
+    fastlane-env: "debug"

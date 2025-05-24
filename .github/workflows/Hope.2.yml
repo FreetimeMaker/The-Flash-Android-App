@@ -1,0 +1,6 @@
+- name: Upload APK
+  uses: actions/upload-artifact@v3
+  with:
+    name: Build APK
+    path: app/build/outputs/apk/release/
+    
